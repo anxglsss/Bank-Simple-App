@@ -1,0 +1,124 @@
+.left {
+	display: flex;
+	margin-top: 0px;
+	.bank-info {
+		display: flex;
+		align-items: center;
+		gap: 80px;
+		background-color: rgb(26, 26, 26);
+		border-radius: 20px;
+		padding: 3px 30px 3px 20px;
+		.bank-card {
+			display: flex;
+			align-items: center;
+
+			img {
+				width: 35px;
+				height: 35px;
+				background-color: rgb(63, 63, 63);
+				padding: 7px;
+				border-radius: 50px;
+			}
+			.info-card {
+				display: flex;
+				flex-direction: column;
+				margin-left: 10px;
+				.card-text {
+					transform: translateY(6px);
+					margin-top: 20px;
+					font-size: 16px;
+					text-wrap: nowrap;
+					font-weight: 600;
+					color: #919191cc;
+					text-decoration: inherit;
+				}
+				.number {
+					transform: translateY(-14px);
+					color: aliceblue;
+					font-size: 1.3rem;
+					letter-spacing: 2px;
+					text-wrap: nowrap;
+				}
+			}
+		}
+		.date {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+
+			.date-text {
+				margin-top: 20px;
+				font-size: 16px;
+				text-wrap: nowrap;
+				font-weight: 600;
+				color: #919191cc;
+				text-decoration: inherit;
+			}
+			.date-number {
+				transform: translateY(-13px);
+				color: aliceblue;
+				font-size: 1rem;
+				letter-spacing: 2px;
+				text-wrap: nowrap;
+			}
+		}
+		.cvc {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			.cvc-text {
+				margin-top: 20px;
+				font-size: 16px;
+				text-wrap: nowrap;
+				font-weight: 600;
+				color: #919191cc;
+				text-decoration: inherit;
+			}
+			.cvc-number {
+				display: flex;
+				align-items: center;
+				letter-spacing: 1px;
+				transform: translateY(-13px);
+				color: aliceblue;
+				gap: 10px;
+
+				img {
+					height: 15px;
+					width: 15px;
+					cursor: pointer;
+					background-color: rgb(47, 47, 47);
+					padding: 4px;
+					border-radius: 50px;
+				}
+				h1 {
+					font-size: 1rem;
+					text-wrap: nowrap;
+					transform: translateX(5px);
+				}
+				.dots {
+					letter-spacing: 4px;
+				}
+			}
+		}
+		.balance {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			.balance-text {
+				margin-top: 20px;
+				font-size: 16px;
+				text-wrap: nowrap;
+				font-weight: 600;
+				color: #919191cc;
+				text-decoration: inherit;
+			}
+			.balance-number {
+				transform: translateY(-13px);
+				color: aliceblue;
+				font-size: 1rem;
+				text-wrap: nowrap;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}

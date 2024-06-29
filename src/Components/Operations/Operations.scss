@@ -1,0 +1,117 @@
+.operations {
+	background-color: rgb(26, 26, 26);
+	color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	align-items: center;
+	min-height: 200px;
+	max-height: 100%;
+	width: 838px;
+	border-radius: 20px;
+	.title-list {
+		position: absolute;
+		left: 0;
+		align-items: center;
+		margin-left: 150px;
+		font-size: 1.1rem;
+		text-wrap: nowrap;
+		display: flex;
+		.reset {
+			color: white;
+			background-color: rgb(255, 0, 0);
+			padding: 0.5rem 1.2rem;
+			text-align: center;
+			width: 100px;
+			outline: none;
+			cursor: pointer;
+			border: none;
+			font-family: 'Outfit', sans-serif;
+			border-radius: 10px;
+			margin-top: 5px;
+			margin-left: 360px;
+			text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.689);
+			font-size: 0.9rem;
+			font-weight: 900;
+		}
+	}
+
+	.list {
+		display: flex;
+		flex-direction: column;
+		margin-top: 100px;
+		gap: 25px;
+		margin-bottom: 30px;
+
+		.income-text {
+			transform: translateX(10px);
+		}
+		.exp-text {
+			transform: translateX(7px);
+		}
+		.income-img {
+			margin-left: 11px;
+		}
+		.expense-img {
+			background-color: rgb(145, 0, 241);
+			margin-left: 10px;
+		}
+		#red {
+			background-color: #ff0000;
+		}
+		#yellow {
+			background-color: rgb(255, 238, 0);
+		}
+
+		.item {
+			display: flex;
+			align-items: center;
+			margin-right: 10px;
+			img {
+				width: 30px;
+				height: 30px;
+			}
+			.income-img {
+				background-color: rgb(24, 236, 0);
+				padding: 7px;
+				border-radius: 50px;
+			}
+			.expense-img {
+				background-color: rgb(140, 0, 241);
+				padding: 7px;
+				border-radius: 50px;
+			}
+			.prop {
+				margin-left: 9px;
+				font-size: 1.4rem;
+				margin-right: 260px;
+			}
+			.date {
+				width: 20px;
+				height: 20px;
+				margin-right: 8px;
+				background-color: rgba(146, 146, 146, 0.664);
+				margin-top: 8px;
+				border-radius: 50%;
+				padding: 5px 6px 5px 5px;
+			}
+			h3 {
+				font-size: 0.9rem;
+				margin-top: 22px;
+				margin-right: 140px;
+				color: rgba(168, 168, 168, 0.737);
+			}
+			.sum {
+				font-size: 1.4rem;
+				color: rgb(255, 255, 255);
+				text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.904);
+			}
+		}
+	}
+}
+.underline {
+	height: 2px;
+	width: 90%;
+	transform: translateY(90px);
+	background-color: rgb(48, 48, 48);
+}

@@ -1,0 +1,67 @@
+.stat-main {
+	position: absolute;
+	margin-left: 61%;
+	margin-top: -110px;
+	background-color: rgb(26, 26, 26);
+	width: 360px;
+	border-radius: 10px;
+	height: 430px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.platform {
+		margin-top: 25px;
+		width: 250px;
+		height: 250px;
+		border-radius: 10px;
+		background-color: rgb(33, 33, 33);
+		canvas {
+			margin-left: 25px;
+			margin-top: 25px;
+			width: 200px !important;
+			height: 200px !important;
+		}
+	}
+	.info-stat {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		margin-top: 25px;
+		.income {
+			color: white;
+			background-color: rgb(0, 234, 12);
+			padding: 0.5rem 1.4rem;
+			text-align: center;
+			width: 200px;
+			border: none;
+			outline: none;
+			border-radius: 10px;
+			font-size: 1rem;
+			text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.689);
+			font-weight: 700;
+		}
+		.expense {
+			color: white;
+			background-color: rgb(145, 0, 241);
+			padding: 0.5rem 1.4rem;
+			text-align: center;
+			width: 200px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+			text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.689);
+			font-size: 1rem;
+			font-weight: 700;
+		}
+		.income:hover {
+			background-color: rgb(43, 43, 43);
+			color: rgb(0, 234, 12);
+			cursor: pointer;
+		}
+		.expense:hover {
+			background-color: rgb(43, 43, 43);
+			color: rgb(145, 0, 241);
+			cursor: pointer;
+		}
+	}
+}
